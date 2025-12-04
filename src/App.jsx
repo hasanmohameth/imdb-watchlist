@@ -100,7 +100,7 @@ export default function App() {
   const {data,error,isLoading} = useQuery({
 
     queryKey:['users',query],
-    queryFn : ()=> fetch(`http://www.omdbapi.com/?apikey=${KEY}&s=${query}`).then(res => res.json())
+    queryFn : ()=> fetch(`https://www.omdbapi.com/?apikey=${KEY}&s=${query}`).then(res => res.json())
 
   })
 
