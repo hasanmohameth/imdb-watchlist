@@ -9,6 +9,7 @@ Live Demo: **https://imdb-watchlist-lgpj.onrender.com**
 - 🔍 **Search** movies & series using IMDb API (OMDb API)
 - ⭐ **Rate** any title manually
 - 📌 **Add to Watchlist** and manage your saved items
+- ⏳ Loading & error handling
 - 📝 Show detailed movie info such as:
   - Year
   - Genre
@@ -27,6 +28,7 @@ Live Demo: **https://imdb-watchlist-lgpj.onrender.com**
 - vite
 - useRef
 - OMDb API(with API key)
+- ESlint
 
 ---
 
