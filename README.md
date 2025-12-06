@@ -1,5 +1,5 @@
 # 🎬 IMDb Watchlist  
-A modern React application that lets users search for movies & series, view detailed information from IMDb, rate titles, and save them to a personal watchlist.
+A modern React application that lets users search for movies & series, view detailed information from IMDb, rate titles, and save them to a personal watchlist and see loading & error states.
 
 Live Demo: **https://imdb-watchlist-lgpj.onrender.com**
 
