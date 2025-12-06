@@ -1,21 +1,37 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎬 IMDb Watchlist  
+A modern React application that lets users search for movies & series, view detailed information from IMDb, rate titles, and save them to a personal watchlist.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: **https://imdb-watchlist-lgpj.onrender.com**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔍 **Search** movies & series using IMDb API (OMDb API)
+- ⭐ **Rate** any title manually
+- 📌 **Add to Watchlist** and manage your saved items
+- 📝 Show detailed movie info such as:
+  - Year
+  - Genre
+  - Runtime
+  - Plot
+  - IMDb Rating
+- ⚡ **Instant UI updates** thanks to React Query caching & background refetch
+- 🎯 **Clean and reusable component structure**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- React
+- React Query
+- JavaScript (ES6+)
+- vite
+- useRef
+- OMDb API(with API key)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# imdb-watchlist
-A React-based movie search app with detailed info, custom ratings, and playlist management.
->>>>>>> 57992cfddffda857a0d285a97aff32e166c8454f
+## 📦 Installation & Run Locally
+
+Clone the project:
+```bash
+git clone https://github.com/hasanmohameth/imdb-watchlist.git
