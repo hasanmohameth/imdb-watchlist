@@ -115,7 +115,7 @@ export default function App() {
       <NavBar >
         
         <NavBar.Search query={query} setQuery={setQuery} />
-        <NavBar.NumResults movies={movies} />       
+        <NavBar.NumResults movies={data?.Search || []} />       
 
       </NavBar>
 
