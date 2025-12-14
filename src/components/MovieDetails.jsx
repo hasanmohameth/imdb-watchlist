@@ -8,7 +8,7 @@ const KEY = "e8f6da44";
 
 const fetchMovieDetails = async (selectedId) => {
   const res = await fetch(
-    `http://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
+    `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
   );
   const data = await res.json();
   return data;
@@ -35,7 +35,7 @@ export default function MovieDetails({
 
   // useEffect(() => 
   //   { async function getMovieDetails()
-  //      { setIsLoading(true); const res = await fetch( http://www.omdbapi.com/?apikey=${KEY}&i=${selectedId} );
+  //      { setIsLoading(true); const res = await fetch( https://www.omdbapi.com/?apikey=${KEY}&i=${selectedId} );
   //        const data = await res.json();
   //         setMovie(data); setIsLoading(false); } getMovieDetails(); },
   //          [selectedId]);
