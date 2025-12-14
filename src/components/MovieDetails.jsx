@@ -8,11 +8,12 @@ const KEY = "e8f6da44";
 
 const fetchMovieDetails = async (selectedId) => {
   const res = await fetch(
-    `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
+    `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}` // https
   );
   const data = await res.json();
   return data;
 };
+
 // const [movie, setMovie] = useState({});
 //  const [isLoading, setIsLoading] = useState(false);
 
